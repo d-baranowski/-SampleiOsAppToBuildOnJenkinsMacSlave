@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/Shared/Jenkins/Home/workspace/BuildIOSOnMacSlave/JenkinsTestBuild/main.m \
-  /Users/Shared/Jenkins/Home/workspace/BuildIOSOnMacSlave/JenkinsTestBuild/AppDelegate.h
+  /Users/Shared/Jenkins/Desktop/JenkinsGitRepository/-SampleiOsAppToBuildOnJenkinsMacSlave/JenkinsTestBuild/main.m \
+  /Users/Shared/Jenkins/Desktop/JenkinsGitRepository/-SampleiOsAppToBuildOnJenkinsMacSlave/JenkinsTestBuild/AppDelegate.h

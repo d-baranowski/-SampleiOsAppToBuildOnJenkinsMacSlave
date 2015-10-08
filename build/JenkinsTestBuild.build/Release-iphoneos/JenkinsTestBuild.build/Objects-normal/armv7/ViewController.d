@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/Shared/Jenkins/Home/workspace/BuildIOSOnMacSlave/JenkinsTestBuild/ViewController.m \
-  /Users/Shared/Jenkins/Home/workspace/BuildIOSOnMacSlave/JenkinsTestBuild/ViewController.h
+  /Users/Shared/Jenkins/Desktop/JenkinsGitRepository/-SampleiOsAppToBuildOnJenkinsMacSlave/JenkinsTestBuild/ViewController.m \
+  /Users/Shared/Jenkins/Desktop/JenkinsGitRepository/-SampleiOsAppToBuildOnJenkinsMacSlave/JenkinsTestBuild/ViewController.h

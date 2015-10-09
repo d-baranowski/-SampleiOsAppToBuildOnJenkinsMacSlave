@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0f64f72270dbc8420276956c /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E7B6B61BC2B7CF00388603 /* Assets.xcassets */; };
+		342afa8c39134815497ef748 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105b40304e92ed41ede450c4 /* CFNetwork.framework */; };
+		4dce4de0c89b1f7c72e861c4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E7B6B81BC2B7CF00388603 /* LaunchScreen.storyboard */; };
+		58d65ac180d40453fad509fb /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B6AE1BC2B7CF00388603 /* AppDelegate.m */; };
+		58fc56f6ce68c8c21349620a /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B6AB1BC2B7CF00388603 /* main.m */; };
 		A6E7B6AC1BC2B7CF00388603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B6AB1BC2B7CF00388603 /* main.m */; };
 		A6E7B6AF1BC2B7CF00388603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B6AE1BC2B7CF00388603 /* AppDelegate.m */; };
 		A6E7B6B21BC2B7CF00388603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B6B11BC2B7CF00388603 /* ViewController.m */; };
 		A6E7B6B51BC2B7CF00388603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E7B6B31BC2B7CF00388603 /* Main.storyboard */; };
 		A6E7B6B71BC2B7CF00388603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E7B6B61BC2B7CF00388603 /* Assets.xcassets */; };
 		A6E7B6BA1BC2B7CF00388603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E7B6B81BC2B7CF00388603 /* LaunchScreen.storyboard */; };
+		b3a33ef030a44d34ab494e59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B6B11BC2B7CF00388603 /* ViewController.m */; };
+		db84043a2dc9fad0f197811b /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E7B6B31BC2B7CF00388603 /* Main.storyboard */; };
+		f1995fa0bc9b5423275dbc82 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695fdb365a0d19439ae997ed /* calabash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		105b40304e92ed41ede450c4 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		695fdb365a0d19439ae997ed /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		A6AC0A501BC7B8EE003F435A /* JenkinsTestBuild-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JenkinsTestBuild-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E7B6A71BC2B7CF00388603 /* JenkinsTestBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTestBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E7B6AB1BC2B7CF00388603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6E7B6AD1BC2B7CF00388603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,12 +47,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		bcc153e6fbc9886999ccc698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342afa8c39134815497ef748 /* CFNetwork.framework in Frameworks */,
+				f1995fa0bc9b5423275dbc82 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6E387D31BC67C3E00A93162 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				105b40304e92ed41ede450c4 /* CFNetwork.framework */,
+				695fdb365a0d19439ae997ed /* calabash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6E7B69E1BC2B7CF00388603 = {
 			isa = PBXGroup;
 			children = (
+				A6E387D31BC67C3E00A93162 /* Frameworks */,
 				A6E7B6A91BC2B7CF00388603 /* JenkinsTestBuild */,
 				A6E7B6A81BC2B7CF00388603 /* Products */,
 			);
@@ -51,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				A6E7B6A71BC2B7CF00388603 /* JenkinsTestBuild.app */,
+				A6AC0A501BC7B8EE003F435A /* JenkinsTestBuild-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +113,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9a5855fec3a9035783169ad3 /* JenkinsTestBuild-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = fc98f2eeae63d2b89963d9fb /* Build configuration list for PBXNativeTarget "JenkinsTestBuild-cal" */;
+			buildPhases = (
+				dbcfdb02ca85ca2d201f849d /* Sources */,
+				bcc153e6fbc9886999ccc698 /* Frameworks */,
+				be692c1c58d5edcb631ebb19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JenkinsTestBuild-cal";
+			productName = "JenkinsTestBuild-cal";
+			productReference = A6AC0A501BC7B8EE003F435A /* JenkinsTestBuild-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A6E7B6A61BC2B7CF00388603 /* JenkinsTestBuild */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E7B6BE1BC2B7CF00388603 /* Build configuration list for PBXNativeTarget "JenkinsTestBuild" */;
@@ -108,6 +156,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BJSs;
 				TargetAttributes = {
+					9a5855fec3a9035783169ad3 = {
+						DevelopmentTeam = GCYT26D724;
+					};
 					A6E7B6A61BC2B7CF00388603 = {
 						CreatedOnToolsVersion = 7.0.1;
 						DevelopmentTeam = GCYT26D724;
@@ -128,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				A6E7B6A61BC2B7CF00388603 /* JenkinsTestBuild */,
+				9a5855fec3a9035783169ad3 /* JenkinsTestBuild-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +195,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		be692c1c58d5edcb631ebb19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4dce4de0c89b1f7c72e861c4 /* LaunchScreen.storyboard in Resources */,
+				0f64f72270dbc8420276956c /* Assets.xcassets in Resources */,
+				db84043a2dc9fad0f197811b /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -153,6 +215,16 @@
 				A6E7B6B21BC2B7CF00388603 /* ViewController.m in Sources */,
 				A6E7B6AF1BC2B7CF00388603 /* AppDelegate.m in Sources */,
 				A6E7B6AC1BC2B7CF00388603 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		dbcfdb02ca85ca2d201f849d /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				b3a33ef030a44d34ab494e59 /* ViewController.m in Sources */,
+				58d65ac180d40453fad509fb /* AppDelegate.m in Sources */,
+				58fc56f6ce68c8c21349620a /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +250,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		34540364f682041ced1ffac7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = JenkinsTestBuild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BJSS.JenkinsTestBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9336eba8b7e32386fc85f3a2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = JenkinsTestBuild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BJSS.JenkinsTestBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 		A6E7B6BC1BC2B7CF00388603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -303,6 +423,15 @@
 			buildConfigurations = (
 				A6E7B6BF1BC2B7CF00388603 /* Debug */,
 				A6E7B6C01BC2B7CF00388603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		fc98f2eeae63d2b89963d9fb /* Build configuration list for PBXNativeTarget "JenkinsTestBuild-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34540364f682041ced1ffac7 /* Debug */,
+				9336eba8b7e32386fc85f3a2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JenkinsTestBuild-cal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>JenkinsTestBuild.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>9a5855fec3a9035783169ad3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A6E7B6A61BC2B7CF00388603</key>
 		<dict>
 			<key>primary</key>
